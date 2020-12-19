@@ -1,6 +1,8 @@
 #!/usr/bin/python
 #-*- coding: UTF-8 -*-
 import os
+from dbutils.pooled_db import PooledDB
+import pymysql
 
 class Mysql(object):
 	'Mysql element'
